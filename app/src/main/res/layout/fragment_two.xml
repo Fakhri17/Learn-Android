@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentTwo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Portfolio"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bio"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karya pertama saya untuk tugas desain grafis"
+        android:layout_marginTop="70px"
+        android:layout_marginLeft="50px"
+        android:textSize="25dp"
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menggunakan Aplikasi Editing berupa pixellab di android"
+        android:layout_marginTop="35px"
+        android:layout_marginLeft="50px"
+        android:textSize="25dp"
+        />
+
+
+   
+
+</LinearLayout>
